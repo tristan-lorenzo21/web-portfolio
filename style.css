@@ -7,7 +7,7 @@
 /* Custom Properties, update these for your own design */
 
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-primary: 'Montserrat', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
     
     --fw-reg: 300;
@@ -35,10 +35,11 @@
     }
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* General styles */
-
- 
-
 
 body {
     background: var(--clr-light);
@@ -102,6 +103,7 @@ h3 { font-size: var(--fs-h3) }
 .section__title {
     margin-bottom: .25em;
     font-family: var(--ff-secondary);
+    font-family: 'Montserrat';
 }
 
 .section__title--intro {
@@ -114,7 +116,7 @@ h3 { font-size: var(--fs-h3) }
     border-right: .15em solid #6D8AFF; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .2em; /* Adjust as needed */
+    letter-spacing: .15em; /* Adjust as needed */
     animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
@@ -358,6 +360,12 @@ header {
 .service {
     max-width: 500px;
     margin: 0 auto;
+    font-family: var(--ff-secondary);
+    border: 1px solid #6D8AFF;
+    border-width: thin;
+    border-radius: 5px;
+    padding: 25px;
+    margin-bottom: 25px;
 }
 
 @media (min-width: 800px) {
