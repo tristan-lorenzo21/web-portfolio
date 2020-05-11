@@ -592,15 +592,15 @@ form {
 
 input[type='text'], [type='email'], select, textarea {
 	background: none;
-  border: none;
+    border: none;
 	border-bottom: solid 2px #fff;
 	color: #fff;
 	font-size: 1.000em;
-  font-weight: 400;
-  letter-spacing: 1px;
+    font-weight: 400;
+    letter-spacing: 1px;
 	margin: 0em 0 1.875em 0;
 	padding: 0 0 0.875em 0;
-  text-transform: uppercase;
+    text-transform: none;
 	width: 100%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -620,8 +620,10 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
 }
 
 .message {
-	float: none;
+    float: none;
 }
+
+
 
 .name {
 	float: left;
